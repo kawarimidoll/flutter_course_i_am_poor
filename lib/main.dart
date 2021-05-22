@@ -6,12 +6,13 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('This is appBar!'),
+          title: Text('I Am Poor...'),
           backgroundColor: Colors.deepPurple[800],
+          centerTitle: false,
         ),
-        backgroundColor: Colors.teal[100],
+        backgroundColor: Colors.indigo[300],
         body: Center(
-          child: Text('This is body!'),
+            child: Image(image: AssetImage('images/money_saifu_kara_man.png'))
         ),
       ),
     ),
